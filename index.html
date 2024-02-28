@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script defer></script>
+    <title>Rikipedia</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rick and Morty <span> Wiki </span></h1>
+      <nav>
+        <ul>
+          <a href="/index.html">
+            <li data-text="Personagens">
+              <img src="./assets/portal.gif" alt="portal" />
+              <p>Personagens</p>
+            </li></a
+          >
+          <a
+            href="https://rickandmorty.fandom.com/wiki/List_of_episodes"
+            target="_blank"
+            ><li data-text="Episódios">
+              <img src="./assets/portal.gif" alt="portal" />
+              <p>Episódios</p>
+            </li></a
+          >
+          <a href="/sobre.html"
+            ><li data-text="Sobre">
+              <img src="./assets/portal.gif" alt="portal" />
+              <p>Sobre</p>
+            </li></a
+          >
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container-personagens">
+      <article>
+        <h1>Personagens</h1>
+        <div class="pesquisa">
+          <input type="text" />
+          <button>
+            <a href="https://rickandmorty.fandom.com/wiki/Category:Characters"
+              >Pesquisar</a
+            >
+          </button>
+        </div>
+      </article>
+      <div>
+        <main class="cards">
+          <article class="card">
+            <a
+              href="https://rickandmorty.fandom.com/wiki/Rick_Prime"
+              target="_blank"
+            >
+              <h2>Rick Prime</h2>
+              <span>Dimensão Prime</span>
+              <span>
+                "Você acha legal ser o homem mais inteligente na Terra, mas uma
+                vez que te damos essa tecnologia, você se torna a coisa mais
+                inteligente em todo universo concebível... o Rick Infinito... um
+                DEUS."</span
+              >
+            </a>
+            <img src="./assets/rickPrime.png" alt="rick Prime" />
+          </article>
+          <article class="card">
+            <a
+              href="https://rickandmorty.fandom.com/wiki/Rick_Sanchez"
+              target="_blank"
+            >
+              <h2>Rick Sanchez</h2>
+              <span>Dimensão C-137</span>
+              <span>"Wubba Lubba Dub-Dub!"</span>
+            </a>
+            <img src="./assets/rickSanchez.png" alt="rick Sanchez" />
+          </article>
+          <article class="card">
+            <a
+              href="https://rickandmorty.fandom.com/wiki/Evil_Morty"
+              target="_blank"
+            >
+              <h2>Evil Morty</h2>
+              <span>Dimensão Desconhecida</span>
+              <span
+                >"Isso é o que me faz mau... estar cansado dele. Se você já
+                esteve cansado dele, você também foi mau."
+              </span>
+            </a>
+            <img src="./assets/evilMorty.png" alt="evil Morty" />
+          </article>
+        </main>
+      </div>
+    </section>
+  </body>
+</html>
